@@ -26,3 +26,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# large music files (add locally)
+/public/audios/
+/public/music/
+
+# backups / scratch files
+*Backup*
+*- Copy*
+*Edited1*
+/htdocs_files.zip
+/src/icons/newnigga.svg
+/src/placeholder-imagebbbbbbbbbbb.jpg

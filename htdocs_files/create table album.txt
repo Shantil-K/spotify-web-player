@@ -1,0 +1,11 @@
+USE music_database;
+
+CREATE TABLE album (
+    `index` INT PRIMARY KEY,
+    songFullName VARCHAR(60),
+    songName VARCHAR(60),
+    songimg VARCHAR(100),
+    songArtist VARCHAR(100),
+    link VARCHAR(80),
+    trackTime VARCHAR(10)
+);

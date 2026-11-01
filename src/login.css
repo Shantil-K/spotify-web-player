@@ -1,0 +1,94 @@
+/* login.css */
+
+/* General styling for the login page */
+.login-container {
+  background-image: url('placeholder-image.jpg'); /* Replace 'placeholder-image.jpg' with your actual image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the circular login form */
+.login-form {
+  background-color: rgba(68, 68, 68, 0.9); /* Semi-transparent background */
+  border-radius: 50%; /* Makes the container circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 10px solid #ffa500; /* Increased border thickness to 10px */
+  width: 500px; /* Set a larger width and height for the circle */
+  height: 500px;
+  text-align: center;
+  overflow: hidden; /* Ensures content stays within the circle */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Adjust padding to fit content comfortably */
+  box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+.login-form h2 {
+  color: #f0f0f0;
+  margin-bottom: 20px;
+  font-size: 26px; /* Slightly bigger */
+  font-weight: bold; /* Bold text */
+}
+
+/* Styling for labels */
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px; /* Slightly bigger */
+  color: #ccc;
+  font-weight: bold; /* Bold text */
+}
+
+/* Styling for input fields */
+.login-form input {
+  width: calc(300px  ); /* Ensures the input width matches the button width */
+  padding: 12px 18px; /* Same padding as the button */
+  margin: 10px 0;
+  border: 1px solid #888;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+}
+
+
+/* Add focus effect to input fields */
+.login-form input:focus {
+  border-color: #ffa500; /* Orange border on focus */
+}
+
+/* Styling for the login button */
+.login-form button {
+  background-color: #ffa500; /* Orange color */
+  color: black; /* Black text */
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px; /* Rounded rectangle */
+  cursor: pointer;
+  width: calc(100px); /* Ensures consistent width */
+  font-size: 18px; /* Slightly bigger */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the login button */
+.login-form button:hover {
+  background-color: #e69500; /* Slightly darker orange */
+}
+
+/* Additional paragraph styling */
+.login-form p {
+  color: red;
+  font-size: 16px; /* Slightly bigger */
+  font-weight: bold; /* Bold text */
+  margin-top: 15px;
+}

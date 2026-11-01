@@ -50,13 +50,14 @@ function PlaylistPage(props) {
 								>
 									<PlayButton isthisplay={isthisplay}/>
 								</button>
+								
 								<IconButton icon={<Icons.Like />} activeicon={<Icons.LikeActive />}/>
 								<Icons.More className={styles.moreIcon}/>
 							</div>
 
 							<div className={styles.ListHead}>
 								<TextRegularM>#</TextRegularM>
-								<TextRegularM>BAŞLIK</TextRegularM>
+								<TextRegularM>TITLE</TextRegularM>
 								<Icons.Time/>
 							</div>
 

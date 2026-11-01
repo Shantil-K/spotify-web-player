@@ -17,7 +17,7 @@ function Topnav({search = false, tabButtons = false}) {
                 </span>
                 <span>
                     <button className={styles.ProfileBtn}>
-                        Oğuzhan Ulukaya
+                        Log In
                     </button>
                 </span>
           </div>
